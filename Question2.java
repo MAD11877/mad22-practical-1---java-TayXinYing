@@ -8,14 +8,12 @@ public class Question2
     
     //System.out.print("Input weight in kg: ");
     double weight = in.nextDouble();
-    System.out.print(weight);
     
     //System.out.print("Input height in meters: ");
-    double height = in.nextDouble();
-    System.out.print(height);
+    double height = in.nextDouble();;
     
     double BMI = weight / (height * height);
-    System.out.print(String.format("%.2f", BMI));
+    System.out.print(String.format("%.1f", BMI));
     //System.out.print("Body Mass Index is " + String.format("%.2f", BMI) + " kg/m2. \n");
   }
 }
