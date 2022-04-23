@@ -8,9 +8,11 @@ public class Question2
     
     //System.out.print("Input weight in kg: ");
     double weight = in.nextDouble();
+    System.out.print(weight);
     
     //System.out.print("Input height in meters: ");
     double height = in.nextDouble();
+    System.out.print(height);
     
     double BMI = weight / (height * height);
     System.out.print(String.format("%.2f", BMI));
