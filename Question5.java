@@ -10,12 +10,12 @@ public class Question5
 		int i;
         
         //System.out.println("How many integers would you like to input(Max.10?)");
-		int x = input.nextInt();
+		int x = in.nextInt();
         
         //System.out.println("Input the integers:");
         for (i = 0; i <x; i++)
         { 
-          int n = input.nextInt();
+          int n = in.nextInt();
           cnt[--n]++;	
 		    }
 		 
